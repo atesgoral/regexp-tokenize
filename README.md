@@ -1,6 +1,6 @@
 # regexp-tokenize
 
-RegExp.prototype.exec sugar.
+RegExp.prototype.exec sugar to preserve callback/promise chains
 
 ## Instead of:
 
