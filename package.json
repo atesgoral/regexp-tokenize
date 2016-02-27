@@ -1,6 +1,6 @@
 {
   "name": "regexp-tokenize",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "RegExp.prototype.exec sugar",
   "main": "index.js",
   "scripts": {
