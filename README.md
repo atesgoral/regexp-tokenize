@@ -25,3 +25,29 @@ tokenize(/(.+)=(.+)/, 'key1=value1', function (match, key, value) {
   console.log('key:', key, 'value:', value);
 });
 ```
+
+### (b) Promise
+
+Get captured tokens with a resolved promise:
+
+```js
+tokenize(/(.+)=(.+)/, 'key1=value1')
+  .then(function (tokens) {
+    console.log('key:', tokens[1], 'value:', tokens[2]);
+  })
+  .catch(function () {
+    console.error('Not match');
+  });
+```
+
+### (c) Promise with token mapping
+
+```js
+tokenize(/(.+)=(.+)/, 'key1=value1', { key: 1, value: 2 })
+  .then(function (pair) {
+    console.log('key:', pair.key, 'value:', pair.value);
+  })
+  .catch(function () {
+    console.error('Not match');
+  });
+```
