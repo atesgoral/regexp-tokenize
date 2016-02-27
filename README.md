@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/atesgoral/regexp-tokenize/badge.svg?branch=master)](https://coveralls.io/github/atesgoral/regexp-tokenize?branch=master)
+
 # regexp-tokenize
 
 RegExp.prototype.exec sugar to preserve callback/promise chains
