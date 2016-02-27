@@ -1,7 +1,7 @@
 {
   "name": "regexp-tokenize",
   "version": "1.0.0",
-  "description": "RegExp.prototype.exec sugar",
+  "description": "RegExp.prototype.exec sugar to preserve callback/promise chains",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
