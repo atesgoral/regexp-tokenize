@@ -1,0 +1,29 @@
+{
+  "name": "regexp-tokenize",
+  "version": "0.0.1",
+  "description": "RegExp.prototype.exec sugar",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atesgoral/regexp-tokenize.git"
+  },
+  "keywords": [
+    "regexp",
+    "token",
+    "promise",
+    "callback"
+  ],
+  "author": "Ates Goral <ates@magnetiq.com> (http://magnetiq.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atesgoral/regexp-tokenize/issues"
+  },
+  "homepage": "https://github.com/atesgoral/regexp-tokenize#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
