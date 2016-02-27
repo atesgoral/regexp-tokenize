@@ -1,4 +1,7 @@
-[![Coverage Status](https://coveralls.io/repos/github/atesgoral/regexp-tokenize/badge.svg?branch=master)](https://coveralls.io/github/atesgoral/regexp-tokenize?branch=master)
+[![Travis CI](https://img.shields.io/travis/atesgoral/regexp-tokenize.svg)](https://travis-ci.org/atesgoral/regexp-tokenize)
+[![Coverage Status](https://img.shields.io/coveralls/atesgoral/regexp-tokenize.svg)](https://coveralls.io/github/atesgoral/regexp-tokenize?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/regexp-tokenize.svg)](https://www.npmjs.com/package/regexp-tokenize)
+
 
 # regexp-tokenize
 
