@@ -56,3 +56,15 @@ tokenize(/(.+)=(.+)/, 'key1=value1', { key: 1, value: 2 })
     console.error('Not match');
   });
 ```
+
+## Usage
+
+```sh
+npm install --save regexp-tokenize
+```
+
+```js
+var tokenize = require('regexp-tokenize');
+
+tokenize(/.../, '...')
+```
