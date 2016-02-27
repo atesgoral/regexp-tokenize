@@ -41,7 +41,7 @@ tokenize(/(.+)=(.+)/, 'key1=value1')
     console.log('key:', tokens[1], 'value:', tokens[2]);
   })
   .catch(function () {
-    console.error('Not match');
+    console.error('No match');
   });
 ```
 
@@ -53,7 +53,7 @@ tokenize(/(.+)=(.+)/, 'key1=value1', { key: 1, value: 2 })
     console.log('key:', pair.key, 'value:', pair.value);
   })
   .catch(function () {
-    console.error('Not match');
+    console.error('No match');
   });
 ```
 
